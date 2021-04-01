@@ -20,7 +20,8 @@ Some unnecessary code was removed from it, and enriched with extra functionality
 Great guide how to do everything on AWS side can be found by link below (see serverless-stack.com).
 
 ### install dependencies
-Run ```npm start```
+Run ```npm install```. It will install packages specified in ```package.json```.
+Run ```npm start``` to launch the app on localhost.
 
 ### config.js
 Configure the following file at src/config.js. Ideally it should be added to .gitignore (or abstracted in other ways) once it's done.
