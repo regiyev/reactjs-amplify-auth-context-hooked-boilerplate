@@ -41,12 +41,10 @@ const UserProfile = () => {
   const UserAuthInfo = () => {    
     // <p>Logged in as user: {user.challengeParam.userAttributes.email}</p>    
     if (user) {
-        console.log('user within <UserAuthInfo />. IF section', user)
         return (
           <><p>User is logged in.</p></>
         )
     } else {
-      console.log('user within <UserAuthInfo />. ELSE section', user)  
       return <><p>User is not logged in.</p></>
     }
   }  

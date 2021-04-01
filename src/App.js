@@ -11,7 +11,6 @@ function App() {
     ?
     <div className="App">
       <p>Hello World!</p>
-      {/* initialAuthProps={authenticatedUser}  */}
       <UserProfile />
     </div>
     :
