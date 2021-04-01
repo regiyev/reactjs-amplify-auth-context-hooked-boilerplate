@@ -60,5 +60,5 @@ Specify the desired port to run the web app by adding the following content to t
 By default, the app will run on port 3000 after ```npm start```
 
 ## Credits
-1. [Key article that inspried this project. Many thanks to author!](https://itnext.io/creating-reusable-abstractions-with-amplify-and-react-hooks-97784c8b5c2a)
+1. [Key article that inspried this project - "Creating reusable abstractions with Amplify and React hooks". Many thanks to the author - Aggelos Arvanitakis.](https://itnext.io/creating-reusable-abstractions-with-amplify-and-react-hooks-97784c8b5c2a)
 2. [serverless-stack.com - Another great resource explaining step-by-step the creation of fully-functional stateless application, including Cognito Authorisation](https://serverless-stack.com/chapters/what-is-serverless.html)
