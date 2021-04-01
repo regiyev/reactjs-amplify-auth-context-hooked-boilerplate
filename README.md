@@ -21,11 +21,13 @@ A lot of articles are going too deep, and a lot of them are using class-based co
 This project is just minimalistic and help to start quickly with authorisation that works right away.
 
 ## Set-up Notes
-### Into
+### Where it all started from
 The project is based on the boilerplate React project (create-react-app).
 Some unnecessary code was removed from it, and enriched with extra functionality.
+Then rest of code was taken mainly from sources 1 & 2 provided in Credits section down below.
 
 ### Configure AWS resources
+To work with authorisation, make sure to configure AWS Cognito User Pool (mandatory) and Identity Provider (probably optional, but can be needed later to work with Lambdas and API Gateway).
 Great guide how to do everything on AWS side can be found by link below (see serverless-stack.com).
 
 ### install dependencies
@@ -58,5 +60,5 @@ Specify the desired port to run the web app by adding the following content to t
 By default, the app will run on port 3000 after ```npm start```
 
 ## Credits
-[Key article that inspried this project. Many thanks to author!](https://itnext.io/creating-reusable-abstractions-with-amplify-and-react-hooks-97784c8b5c2a)
-[serverless-stack.com - Another great resource explaining step-by-step the creation of fully-functional stateless application, including Cognito Authorisation](https://serverless-stack.com/chapters/what-is-serverless.html)
+1. [Key article that inspried this project. Many thanks to author!](https://itnext.io/creating-reusable-abstractions-with-amplify-and-react-hooks-97784c8b5c2a)
+2. [serverless-stack.com - Another great resource explaining step-by-step the creation of fully-functional stateless application, including Cognito Authorisation](https://serverless-stack.com/chapters/what-is-serverless.html)
