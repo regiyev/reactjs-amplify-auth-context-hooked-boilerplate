@@ -1,8 +1,17 @@
 # Boilerplate project for ReactJS + Amplify + AWS Cognito + Context + Hooks + Functional Components #
-In this project, everything works out of the box in well-structured manner.
-- Authentication details are available to all components via the context.
-- Data is saved to Local Storage and preserved during page refreshes.
+In Scope:
+
+- ReactJS web-application
+- Authentication leveraging AWS Cognito via Amplify library officially supported by AWS
+- useContext is used to make authentication details (user attributes, auth status) and access to functions such as login, logout etc. are centralised in one file and available via interfact to all child components within app
+- functional components are used instead of class-based components
+- leveraging hooks
+- Authentication data is saved to Local Storage and preserved during page refreshes. It's done by Amplify but the app leverages this feature.
+
+Out of Scope:
+
 Forms were not added intentionally to avoid extra libraries and extra complexity.
+In this project, everything works out of the box in well-structured and minimalistic manner.
 
 ## Problems that are solved by this boilerplate
 It can be challenging for developers who are just learning ReactJS to find a robust way to leverage AWS Cognito.
