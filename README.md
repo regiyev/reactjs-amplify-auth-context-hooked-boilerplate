@@ -3,7 +3,7 @@ In Scope:
 
 - ReactJS web-application
 - Authentication leveraging AWS Cognito via Amplify library officially supported by AWS
-- useContext is leveraged to make authentication details (user attributes, auth status) and functions (such as login, logout etc.) centralised in one file and available via interfact to all child components within app
+- useContext is leveraged to make authentication details (user attributes, auth status) and functions (such as login, logout etc.) centralised in one file and available via interface to all child components within app
 - functional components are used instead of class-based components
 - leveraging hooks
 - Authentication data is saved to Local Storage and preserved during page refreshes. It's done by Amplify but the app leverages this feature.
