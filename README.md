@@ -23,7 +23,7 @@ Great guide how to do everything on AWS side can be found by link below (see ser
 Run ```npm start```
 
 ### config.js
-Please and configure the following file at src/config.js:
+Configure the following file at src/config.js. Ideally it should be added to .gitignore (or abstracted in other ways) once it's done.
 
 ```
 const config = {
