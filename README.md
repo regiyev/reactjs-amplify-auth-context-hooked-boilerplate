@@ -57,7 +57,8 @@ export default config;
 ### .env
 Specify the desired port to run the web app by adding the following content to the file:
 ```PORT=3011```
-By default, the app will run on port 3000 after ```npm start```
+
+By default (if this file doesn't exist or if port is not specified in other ways), the app will run on port 3000 after ```npm start```
 
 ## Credits
 1. Key article that inspried this project - ["Creating reusable abstractions with Amplify and React hooks".](https://itnext.io/creating-reusable-abstractions-with-amplify-and-react-hooks-97784c8b5c2a) Many thanks to the author - Aggelos Arvanitakis.
